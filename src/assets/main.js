@@ -19,6 +19,9 @@ $(function() {
           text: course.title
         }).appendTo($course);
 
+        $('<img />', {
+          src: course.badge
+        }).appendTo($course);
       });
 }
 });
