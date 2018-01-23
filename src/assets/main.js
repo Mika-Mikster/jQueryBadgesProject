@@ -22,6 +22,13 @@ $(function() {
         $('<img />', {
           src: course.badge
         }).appendTo($course);
+
+        $('<a />', {
+          'class': 'btn btn-primary',
+          target: '_blank',
+          href: course.url,
+          text: 'See Course'
+        })
       });
 }
 });
